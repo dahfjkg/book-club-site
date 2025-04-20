@@ -1,0 +1,4 @@
+baseURL = 'https://reading-nl.nl/'
+languageCode = 'ru'
+title = 'Книжный клуб в Нидерландах'
+theme = 'paper'
