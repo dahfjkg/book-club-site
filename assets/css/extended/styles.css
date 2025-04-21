@@ -1,0 +1,13 @@
+figure.inline-image {
+    display: inline;
+    white-space:nowrap;
+    float:inline-start;
+    margin:0px;
+}
+
+figure.inline-image img {
+    margin:0px;
+    margin-top:6px;
+    margin-right:4px;
+    height:20px;
+}

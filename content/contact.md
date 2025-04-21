@@ -7,8 +7,8 @@ title = 'Контакты'
       class = 'center'
 +++
 
-Канал клуба в телеграме: [@reading_nl](https://t.me/reading_nl)
+{{< figure src="/images/telegram.svg" class="inline-image" >}} [@reading_nl](https://t.me/reading_nl) — канал клуба в телеграме
 
-Группа на meetup: [reading_nl](https://meetup.com/reading_nl)
+{{< figure src="/images/meetup.svg" class="inline-image" >}} [reading_nl](https://meetup.com/reading_nl) — группа на meetup
 
-Чат амстердамского клуба: [@reading_nl_chat](https://t.me/reading_nl_chat)
+{{< figure src="/images/telegram.svg" class="inline-image" >}} [@reading_nl_chat](https://t.me/reading_nl_chat) — чат амстердамского клуба
