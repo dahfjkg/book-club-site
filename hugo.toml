@@ -1,4 +1,31 @@
 baseURL = 'https://readingnl.nl/'
 languageCode = 'ru'
 title = 'Книжный клуб в Нидерландах'
-theme = 'paper'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = 'dark'
+    disableThemeToggle = 'true'
+    [params.profileMode]
+        Title = 'Книжный клуб в Нидерландах'
+        enabled='true'
+        imageUrl='/images/rodina.jpg'
+        [[params.profileMode.buttons]]
+            name = 'О клубе'
+            url = '/about'
+        [[params.profileMode.buttons]]
+            name = 'Правила'
+            url = '/rules'
+    [[params.socialIcons]]
+        name = 'Telegram'
+        url = 'https://t.me/reading_nl'
+    [[params.socialIcons]]
+        name = 'meetup'
+        url = 'https://meetup.com/reading_nl'
+
+[[module.mounts]]
+    source = 'static'
+    target = 'static'
+[[module.mounts]]
+    source = 'images'
+    target = 'static/images'
