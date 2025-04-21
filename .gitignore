@@ -15,3 +15,5 @@ go.work.sum
 .hugo_build.lock
 public/
 public.zip
+httpdocs/
+httpdocs.zip
