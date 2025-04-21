@@ -1,13 +1,31 @@
 figure.inline-image {
     display: inline;
-    white-space:nowrap;
-    float:inline-start;
+    vertical-align: middle;
+    float:none;
     margin:0px;
 }
 
 figure.inline-image img {
+    display: inline;
+    float:none;
+    vertical-align: middle;
     margin:0px;
-    margin-top:6px;
-    margin-right:4px;
-    height:20px;
+    margin-bottom:4px;
+    height:24px;
+}
+
+figure.inline-cc {
+    display: inline;
+    float:none;
+    margin:0px;
+    vertical-align: middle;
+}
+
+figure.inline-cc img {
+    display: inline;
+    float:none;
+    margin:0px;
+    margin-bottom:3px;
+    vertical-align: middle;
+    height:14px;
 }

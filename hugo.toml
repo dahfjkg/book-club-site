@@ -19,6 +19,9 @@ theme = 'PaperMod'
         [[params.profileMode.buttons]]
             name = 'Контакты'
             url = '/contact'
+    [params.footer]
+        text = 'This work is licensed under [CC BY-NC 4.0](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1) {{< figure src="/images/cc-logo.svg" class="inline-cc" >}} {{< figure src="/images/cc-by.svg" class="inline-cc" >}} {{< figure src="/images/cc-nc.svg" class="inline-cc" >}} '
+        hideCopyright = 'true'
 
 [[module.mounts]]
     source = 'static'
