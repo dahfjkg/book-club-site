@@ -16,12 +16,9 @@ theme = 'PaperMod'
         [[params.profileMode.buttons]]
             name = 'Правила'
             url = '/rules'
-    [[params.socialIcons]]
-        name = 'Telegram'
-        url = 'https://t.me/reading_nl'
-    [[params.socialIcons]]
-        name = 'meetup'
-        url = 'https://meetup.com/reading_nl'
+        [[params.profileMode.buttons]]
+            name = 'Контакты'
+            url = '/contact'
 
 [[module.mounts]]
     source = 'static'
