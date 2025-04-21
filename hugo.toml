@@ -1,4 +1,4 @@
-baseURL = 'https://reading-nl.nl/'
+baseURL = 'https://readingnl.nl/'
 languageCode = 'ru'
 title = 'Книжный клуб в Нидерландах'
 theme = 'paper'
