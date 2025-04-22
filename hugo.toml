@@ -14,8 +14,8 @@ theme = 'PaperMod'
             name = 'О клубе'
             url = '/about'
         [[params.profileMode.buttons]]
-            name = 'Правила'
-            url = '/rules'
+            name = 'Принципы'
+            url = '/principles'
         [[params.profileMode.buttons]]
             name = 'Контакты'
             url = '/contact'

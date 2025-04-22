@@ -1,5 +1,5 @@
 +++
-title = 'Правила'
+title = 'Принципы'
 [menus]
   [menus.main]
     weight = 10
